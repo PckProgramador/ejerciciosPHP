@@ -13,31 +13,27 @@
     var_dump($frutas);
     echo"<br>";
     //array_shift te elimina el primer elemento, y te lo devuelve
-    $elminado=array_shift($frutas);
-    echo " la fruta eliminada es: $eliminado"
-    echo"<br>";
+    $eliminado=array_shift($frutas);
     var_dump($eliminado);
+    echo("<br>");
+    var_dump($frutas);
     echo"<br>";
 
     //array_unshift te añade un elemnto a la primera posicion
-    $eliminado = array_unshift($frutas,"pera añadida al principio");
-    echo " la fruta añadida es: $eliminado"
-    echo"<br>";
+    $eliminado2 = array_unshift($frutas,"pera añadida al principio");
     var_dump($frutas);
     echo"<br>";
 
 
     //array pop actua sobre la parte final del array
     //quita el ultimo elemento del array
-    $eliminado = array_pop($frutas,);
-    echo " la fruta eliminada es: $eliminado"
+    $eliminado3 = array_pop($frutas,);
+    echo " la fruta eliminada es: $eliminado3";
     echo"<br>";
     var_dump($frutas);
     echo"<br>";
     //array_push inerta sobre la parte final un elemento
-    $eliminado = array_push($frutas,"pera añadida al final");
-    echo " la fruta añadida es: $eliminado"
-    echo"<br>";
+    $eliminado4 = array_push($frutas,"pera añadida al final");
     var_dump($frutas);
     echo"<br>";
     ?>
