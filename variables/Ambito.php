@@ -9,7 +9,8 @@
 <body>
     <?php
         //Ambito
-        
+        //las variables por defecto estan en local, no salen de la funcion
+        //si le ponemos global si coge las que esten fuera
         $numero = 22;
 
         function prueba (){

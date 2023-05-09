@@ -8,6 +8,8 @@
 </head>
 <body>
    <?php
+   //recupera la variable que se llame nombre y la imprime por pantalla
+   //lo mismo con cargo
     echo "Nombre ". $_GET["nombre"] . "<br>";
     echo "Cargo " . $_GET["cargo"];
    ?>
