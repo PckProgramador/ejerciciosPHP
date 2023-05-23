@@ -4,3 +4,5 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/PckProgramador/ejerciciosPHP)
 
 
+Aquí os dejo una selección de ejercicos básicos de php para que aprendais gratis. ¡Un saludo!
+
